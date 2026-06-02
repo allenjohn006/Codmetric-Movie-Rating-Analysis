@@ -1,8 +1,8 @@
-# Movie Ratings Analysis
+# Movie Ratings Analysis [Codmetric Task-2]
 
 A comprehensive data analysis project exploring **368,300 IMDb movies** across **16 genres**. This project combines genre-specific datasets, performs exploratory data analysis (EDA), and generates insights into movie ratings, audience engagement, and genre popularity.
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 - **Total Records:** 368,300 movies
 - **Genres:** 16 (Action, Adventure, Animation, Biography, Crime, Family, Fantasy, Film-Noir, History, Horror, Mystery, Romance, Sci-Fi, Sports, Thriller, War)
@@ -30,7 +30,7 @@ A comprehensive data analysis project exploring **368,300 IMDb movies** across *
 | Sports | 5,292 | 1.4% |
 | Film-Noir | 986 | 0.3% |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Movie-Ratings-Analysis/
@@ -53,7 +53,7 @@ Movie-Ratings-Analysis/
 └── .gitignore                     # Git ignore rules
 ```
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### Rating Statistics
 - **Average Rating:** 5.70 / 10
@@ -77,7 +77,7 @@ Movie-Ratings-Analysis/
 - Movies with 100K+ votes tend to have higher average ratings
 - Suggests high-quality/popular films attract more voter participation
 
-## 📋 Requirements
+##  Requirements
 
 Install dependencies using pip:
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 - seaborn - Statistical data visualization
 - jupyter - Interactive notebook environment
 
-## 🚀 How to Run the Analysis
+##  How to Run the Analysis
 
 ### Option 1: Jupyter Notebook (Recommended)
 ```bash
@@ -124,7 +124,7 @@ The analysis follows this pipeline:
 7. **Visualization 4** - Top 10 highest-rated movies (data table)
 8. **Visualization 5** - Votes vs Ratings correlation (scatter plot)
 
-## 📈 Visualizations Generated
+##  Visualizations Generated
 
 ### 1. Distribution of Movie Ratings
 Shows the frequency distribution of IMDb ratings across all movies. Key pattern: Strong concentration around 6.0 rating with secondary peaks at 8.0+.
@@ -138,7 +138,7 @@ Average rating comparison across genres. Crime and Adventure genres achieve the 
 ### 4. Votes vs Ratings Correlation
 Scatter plot revealing the relationship between audience engagement (votes) and ratings. Shows strong positive correlation: more votes generally correlate with higher ratings.
 
-## 📊 Data Structure
+##  Data Structure
 
 Each CSV record contains:
 - `movie_id` - IMDb movie identifier
@@ -156,13 +156,13 @@ Each CSV record contains:
 - `votes` - Number of user votes
 - `gross(in $)` - Box office revenue
 
-## 📄 Reports and Documentation
+##  Reports and Documentation
 
 - **Analysis_Report.md** - Comprehensive analysis findings with detailed statistics and recommendations
 - **README.md** - This file with project overview and instructions
 - **Notebook outputs** - Interactive visualizations and data samples in the Jupyter notebook
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Language:** Python 3.x
 - **Data Processing:** Pandas, NumPy
@@ -170,7 +170,7 @@ Each CSV record contains:
 - **Environment:** Jupyter Notebook
 - **Version Control:** Git
 
-## 💡 Use Cases
+##  Use Cases
 
 This dataset and analysis are suitable for:
 - Machine learning regression models (predicting ratings)
@@ -179,7 +179,7 @@ This dataset and analysis are suitable for:
 - Movie industry trend analysis
 - Audience preference research
 
-## 📌 Notes
+##  Notes
 
 - The notebook automatically loads all CSV files from the `data/` folder
 - Generated visualizations are saved in the `image/` folder
@@ -187,14 +187,14 @@ This dataset and analysis are suitable for:
 - Missing values are handled intelligently (median imputation for numerical, 0 for revenue)
 - All data processing maintains data integrity with no information loss
 
-## 🤝 Contributing
+##  Contributing
 
 To add new analysis:
 1. Add new cells to the notebook
 2. Document findings in the analysis report
 3. Save any new visualizations to the `image/` folder
 
-## 📞 Support
+##  Support
 
 For issues or questions:
 1. Check the Analysis_Report.md for detailed findings
@@ -206,4 +206,4 @@ For issues or questions:
 **Last Updated:** June 2, 2026  
 **Dataset Records:** 368,300 movies  
 **Genres Analyzed:** 16  
-**Status:** ✅ Ready for production use
+**Status:**  Ready for production use
