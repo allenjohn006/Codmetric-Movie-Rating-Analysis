@@ -129,14 +129,22 @@ The analysis follows this pipeline:
 ### 1. Distribution of Movie Ratings
 Shows the frequency distribution of IMDb ratings across all movies. Key pattern: Strong concentration around 6.0 rating with secondary peaks at 8.0+.
 
+![Distribution of Movie Ratings](image/Distribution%20of%20Movie%20Ratings.png)
+
 ### 2. Top 10 Genres by Volume
 Bar chart displaying the most represented genres in the dataset. Thriller, Romance, and Action dominate with 14%+ each.
+
+![Top 10 Genres](image/Top%2010%20Genres.png)
 
 ### 3. Highest Rated Genres
 Average rating comparison across genres. Crime and Adventure genres achieve the highest average ratings (~9.0).
 
+![Highest Rated Genres](image/Highest%20Rated%20Genres.png)
+
 ### 4. Votes vs Ratings Correlation
 Scatter plot revealing the relationship between audience engagement (votes) and ratings. Shows strong positive correlation: more votes generally correlate with higher ratings.
+
+![Votes vs Ratings](image/Votes%20vs%20Ratings.png)
 
 ##  Data Structure
 
